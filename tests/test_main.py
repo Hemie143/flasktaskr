@@ -3,9 +3,9 @@
 import os
 import unittest
 
-from flasktaskr.project import app, db
-from flasktaskr.project._config import basedir
-from flasktaskr.project.models import User
+from project import app, db
+from project._config import basedir
+from project.models import User
 
 TEST_DB = 'test.db'
 
