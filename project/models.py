@@ -1,6 +1,6 @@
 # project/models.py
 
-from flasktaskr.project import db
+from project import db
 import datetime
 
 class Task(db.Model):

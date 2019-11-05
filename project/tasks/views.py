@@ -4,8 +4,8 @@ from flask import flash, redirect, render_template, \
     request, session, url_for, Blueprint
 
 from .forms import AddTaskForm
-from flasktaskr.project import db
-from flasktaskr.project.models import Task
+from project import db
+from project.models import Task
 
 
 ################
