@@ -8,8 +8,8 @@ from flask import flash, redirect, render_template, \
 from sqlalchemy.exc import IntegrityError
 
 from .forms import RegisterForm, LoginForm
-from flasktaskr.project import db, bcrypt
-from flasktaskr.project.models import User
+from project import db, bcrypt
+from project.models import User
 
 
 
