@@ -10,8 +10,8 @@ app.config.from_pyfile('_config.py')
 bcrypt = Bcrypt(app)
 db = SQLAlchemy(app)
 
-from flasktaskr.project.users.views import users_blueprint
-from flasktaskr.project.tasks.views import tasks_blueprint
+from project.users.views import users_blueprint
+from project.tasks.views import tasks_blueprint
 
 app.register_blueprint(users_blueprint)
 app.register_blueprint(tasks_blueprint)
