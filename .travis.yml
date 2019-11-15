@@ -1,13 +1,15 @@
 language:
-  - python
+- python
 python:
-  - '3.7'
+- '3.7'
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-  - nosetests
+- nosetests
 deploy:
   provider: heroku
-  api_key: $HEROKU_API_KEY
-  run:
-    - "nosetests"
+  api_key:
+    secure: trnfpRqn175bLKDVMiVTxghG8elY1JlP1s5RvkT3Z2bLUPnmIQ0AgFgMnbqKGCea/EwGL+woCnysvx3HUkMnOVxjS321BZIv8H9ML17sRuA3/o2ME2DQFN1obHgKyM3Nj4eYwHT0Vr0nJl8/gw3YYGNLoZORTSfYJ+44vX1XwJRxPkVfHqe36CpyQ8Vk0fMSvxYAS694K1IvIqQct+7HYNI7UxH4mNF5D8LDHZY4mFkJtv47GHefcFQG7gwdRMztu4l47v38F2BvHTQiCW3/5j3C7xBlqPRXH+xvPcos1qmTTnPBVwq1EVt0oFWSQ+NdhqmQv0przYkvWFK4wceT3bT/wMrv8h0lAbnTzJcEE3KB33Q7hLPY1a4dQaH27r5dz6FnxP4hD/ACdnyUmOZilVneTbdmVKIZqBXUH8LhF+vFlN4JHCX4lgTzimhGO5pI/apED7L10YfsNJXakx9/8CqQJo+kcEtzUQ/gy3BvvdCR3Hd3wIUhvK67L/Cu61XyzupF5e+S4bmqGgbdaPPiPsGw89fFKEnAcmqTcMpM/ZhBnncXPI68Z1UDh5s9pgEGuVjA9ZNH81eA3seJWq8I1PVft5yCrpypK/Kh9vC2L9EVjx1DWszqIxTqR+hmgssKqhGkkw5qQgo90fJLuNo7YYPFPKb1hIgNBaiwy5+jf1I=
+  app: flasktaskr
+  on:
+    repo: Hemie143/flasktaskr
