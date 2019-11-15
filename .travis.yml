@@ -10,6 +10,6 @@ deploy:
   provider: heroku
   api_key:
     secure: RngelVxCEwOGH2rDv5qJsOH31MPGyhI9sZi68MZLklyvtMZVoZLmrSepY53NJ0pMk6SY1OtZwEpz92XdFc4HkVDslCZ6XHXGWqR7lEmI7aeBqD/L0YIKqT+CdX7sv0lOrnDKvH1QUrKV0uNgOGQZ3+1UIz6N+jncILAIeGIh7zbn3+HtnDGYYxJfFYygdu7tkfqGjqUdSLPLNkMPPW7rZeSfgrMgy46vNXtvNnmoLEd2PCqQNCRv5sVTZgCYXK4UN2Mvtu4aAn7eE7Drgj62RFrLuYHNpgXp+WAiWQvxkPbCzyi5JvgHcI/zKOutaV1fRV+Xg+ggiEtlNup64HOEu/PyFyuQH7WmW8LIoUjybTdQ563dJXXaCQNyK2Sp3EFnb/0GwNb79HTbuvP2oxQgGevvQv1cZC8NwY/OtnZjlg6JHDP4fq7MRnB/o6iBB2EBCy1YhYaJ39jz5zrQOXwBRLbofktU1bXMD3QlON1tgIkoHMHsyOJzU2koXjduPRahELhDf9ftYNOLCySnenvJs+edrEegOkVC2nAQV//IhJHUhl4t0+BXLyw/u67tyZShUJcS5/7xbPoS+u7uvfk2+TM4NwZ8nnzHagT3lXm4OuAO/x23wmu5BJy9gfAiVvLoZxylQ7i2YBek8p3bH/L9KZZKBW/D2a/JeWnRdi9xt58=
-  app: flasktaskr
+  app: powerful-wave-74753
   on:
     repo: Hemie143/flasktaskr
