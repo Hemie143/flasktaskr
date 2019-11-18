@@ -13,3 +13,5 @@ deploy:
   app: powerful-wave-74753
   on:
     repo: Hemie143/flasktaskr
+  run:
+    - nosetests
