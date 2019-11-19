@@ -3,7 +3,7 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = False
+DEBUG = True
 
 DATABASE = 'flasktaskr.db'
 WTF_CSRF_ENABLED = True

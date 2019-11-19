@@ -1,11 +1,11 @@
 language:
-- python
+  - python
 python:
-- '3.7'
+  - '3.7'
 install:
-- pip install -r requirements.txt
+  - pip install -r requirements.txt
 script:
-- nosetests
+  - nosetests
 deploy:
   provider: heroku
   api_key:
@@ -14,4 +14,4 @@ deploy:
   on:
     repo: Hemie143/flasktaskr
   run:
-  - nosetests
+    - nosetests
