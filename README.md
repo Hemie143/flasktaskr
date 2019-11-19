@@ -1,8 +1,12 @@
 
+[![Build Status](https://travis-ci.org/Hemie143/flasktaskr.svg?branch=master)](https://travis-ci.org/Hemie143/flasktaskr)
+
+
 This is the Flask application flasktaskr, as described in the Second book of Real Python:
 Real Python - Part 2 : Web Development with Python 
 
 See:
+
 https://realpython.com/products/real-python-course/course-overviews/#course-2-web-development-with-python
 https://github.com/realpython/book2-exercises
 
