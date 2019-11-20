@@ -40,7 +40,6 @@ def login_required(test):
 #### routes ####
 ################
 
-"""
 @users_blueprint.route('/', methods=['GET', 'POST'])
 def login():
     error = None
@@ -58,7 +57,6 @@ def login():
             else:
                 error = 'Invalid username or password.'
     return render_template('login.html', form=form, error=error)
-"""
 
 @users_blueprint.route('/logout/')
 @login_required
