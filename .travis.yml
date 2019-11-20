@@ -12,6 +12,7 @@ deploy:
     secure: OgtsOYLIxfYdh5Uug6cXWihq0s9qjBF0E1KfizIjiEMepV6Je1+9psAR8xypor1iexdEF0rrHNMTNTy1KxYbz/DnqS1Ige2bm7VriSBaAOTOlXJG/OIlEGgSpUyE3cEw4u55/Dz2yjseF2zK5r0gCH69HoClDATKK6rnAFJM+0RCXUIKUMVNyt01XFU11x7lZD9czPZ6K7qP/t8Zmssfain7HNqCBPmwErxiFxz+R4buL9jP3ByxFEJ2nfKDlcTk4mBwBoFIpFy1wRyP4Cg6GTRNs+8tlBoRp9aGJ3VkifDDC+WHeBCNRr9LjG5OhReQ3QL6Rj5DmYaNsCJFjDy1Rr5p6oTDvUcnpthPR+B4LFQEgSQNan+ktfcSwn0WL/I7HliOPWt+x/DNJAF1gwn3gCcT/9WS3J/CLSjGscCurB/XVBHND9PidCYm0AdsjOEs/9TgvlrsMd7uZLQ+KGickKCN+6GCwoEfl6FWNJ6po+/rgh83vtT7cNec/2a//igV0F6ia/5afZLSGmpGn2AJyEo0nzstJ5Xotgk9R4BvQdta9UeV840gsic+B5AaCwdtbRggXEt0KjX6dUgPNd5ZGtiZ7vgZ0B7HjiyGLC9Plpjv9MthZAlvHe6Kgv1xbnVFOKXZxq2kRTq7VKZBOG0995FgP1+x6AdEvP6OclCRj5k=
   app: powerful-wave-74753
   on:
+    branch: master
     repo: Hemie143/flasktaskr
   run:
     - nosetests
